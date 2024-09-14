@@ -11,6 +11,7 @@ package oop;
  */
 public class Oop extends oop1{
 int b;
+int c;
 
 public int getB() {
         return b;
@@ -18,6 +19,9 @@ public int getB() {
 
     public void setB(int b) {
         this.b = b;
+    }
+    public void setC(int c){
+        this.c=c;
     }
     /**
      * @param args the command line arguments
